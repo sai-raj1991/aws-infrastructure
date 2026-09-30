@@ -86,7 +86,7 @@ resource "aws_iam_role" "github_actions" {
 
           StringLike = {
             "token.actions.githubusercontent.com:sub" = [
-              "repo:sai-raj1991/aws-infrastructure:*"
+              "repo:sai-raj1991@130150299/aws-infrastructure@1397509925:*"
             ]
           }
         }
